@@ -83,9 +83,9 @@ module.exports = {
       disable: !isProd,
       allChunks: true
     }),
-    new PurifyCSSPlugin({
-      paths: glob.sync(path.join(__dirname, 'src/*.html')),
-    }),
+    // new PurifyCSSPlugin({
+    //   paths: glob.sync(path.join(__dirname, 'src/*.html')),
+    // }),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin()
     // new webpack.optimize.UglifyJsPlugin({
