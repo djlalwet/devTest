@@ -706,7 +706,7 @@ footer .copyright .woocomLogo img {
 
   #getMessage #messagebar {
     min-height: 35vh!important;
-    margin: 2.5vh 0;
+    margin: 2.5vh auto;
   }
 
   #getMessage #messagebar .formHeader {

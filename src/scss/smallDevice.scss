@@ -9,7 +9,7 @@
     float: none;
     text-align: center;
     width: 90%;
-    margin: 10px auto;
+    margin: 10px 0;
   }
   
   .container{
@@ -52,12 +52,19 @@
       font-size: 30px !important;
     }
     #welcome{
-      margin-top: 5px !important;
-      margin-bottom: 20px !important;
+      // margin-top: 5px !important;
+      // margin-bottom: 20px !important;
+      margin: 5px auto 20px auto !important;
+    }
+    #sidebar{
+      margin: 10px auto;
     }
     .carousel-indicators{
       left: 50% !important;
       top: 100% !important;
+    }
+    h3{
+      font-size: 24px !important;
     }
     p{
       margin: 0 !important;
