@@ -1,6 +1,6 @@
 @media(max-width: 768px){
   #getMessage #welcome,
-  #getMessage #sidebar,
+  #getMessage #messagebar,
   #services .service,
   #didYouKnow #sidebar,
   #faq .questions,
@@ -48,7 +48,7 @@
   }
 
   #getMessage{
-    h1{
+    h2{
       font-size: 30px !important;
     }
     #welcome{
@@ -106,7 +106,7 @@
     .header{
       padding: 5px 0;
     }
-    h1{
+    h2{
       line-height: 1 !important;
     }
     .row{

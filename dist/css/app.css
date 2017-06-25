@@ -2,12 +2,12 @@ body {
   font: 15px/1.5 Arial,Helvetica,sans-serif;
 }
 
-body h1 {
+body h2 {
   color: #464646;
   font-size: 27px;
 }
 
-body h1,body h3 {
+body h2,body h3 {
   font-weight: 700;
 }
 
@@ -120,7 +120,7 @@ header .dropdown-menu .divider {
   background-color: #00c1b5;
 }
 
-#getMessage #welcome h1 {
+#getMessage #welcome h2 {
   color: #fff;
   font-size: 4.5vw;
   font-weight: 700;
@@ -134,7 +134,7 @@ header .dropdown-menu .divider {
   line-height: 1.3;
 }
 
-#getMessage #sidebar {
+#getMessage #messagebar {
   min-height: 65vh;
   float: right;
   width: 33%;
@@ -143,7 +143,7 @@ header .dropdown-menu .divider {
   margin: 5vh 0;
 }
 
-#getMessage #sidebar .formHeader {
+#getMessage #messagebar .formHeader {
   height: 22vh;
   background-color: #00c1b5;
   color: #fff;
@@ -151,13 +151,13 @@ header .dropdown-menu .divider {
   padding: 3vh 2vw;
 }
 
-#getMessage #sidebar .formHeader h3 {
+#getMessage #messagebar .formHeader h3 {
   margin: 0;
   padding: 2.5vh 0;
   font-weight: 800;
 }
 
-#getMessage #sidebar .formHeader p {
+#getMessage #messagebar .formHeader p {
   font-size: 10px;
   padding: 2vh 0;
   text-align: left;
@@ -165,23 +165,23 @@ header .dropdown-menu .divider {
   color: #fff;
 }
 
-#getMessage #sidebar .formHeader .bordered {
+#getMessage #messagebar .formHeader .bordered {
   border-bottom: 3px solid #fff;
   width: 5vw;
 }
 
-#getMessage #sidebar form {
+#getMessage #messagebar form {
   padding: 2vh;
 }
 
-#getMessage #sidebar form input {
+#getMessage #messagebar form input {
   width: 90%;
   padding: 1.5vh;
   margin-top: 2vh;
   font-size: 10px;
 }
 
-#getMessage #sidebar form button {
+#getMessage #messagebar form button {
   margin-top: 10px;
   width: 90%;
   background-color: #00c1b5;
@@ -190,7 +190,7 @@ header .dropdown-menu .divider {
   border-style: none;
 }
 
-#getMessage #sidebar .privacyPolicy a {
+#getMessage #messagebar .privacyPolicy a {
   color: hsla(0,0%,49%,.7);
   text-decoration: underline;
 }
@@ -271,7 +271,7 @@ header .dropdown-menu .divider {
   width: 50vw;
 }
 
-#ourStory h1 {
+#ourStory h2 {
   margin: 25px auto;
 }
 
@@ -317,7 +317,7 @@ header .dropdown-menu .divider {
   text-align: center;
 }
 
-#testimonials #testimony h1 {
+#testimonials #testimony h2 {
   color: #00c1b5;
   margin: 1.5vh auto 5vh;
 }
@@ -357,7 +357,7 @@ header .dropdown-menu .divider {
   padding: 8.5vh 0;
 }
 
-#faq .header h1 {
+#faq .header h2 {
   font-size: 30px;
   line-height: 1.5;
 }
@@ -400,7 +400,7 @@ header .dropdown-menu .divider {
   padding-top: 13vh;
 }
 
-#getStarted h1 {
+#getStarted h2 {
   color: #fff;
   padding: 3vh 0;
   font-weight: 700;
@@ -564,7 +564,7 @@ footer .copyright .woocomLogo img {
     width: 100vw;
   }
 
-  #getMessage h1 {
+  #getMessage h2 {
     font-size: 30px!important;
   }
 
@@ -626,7 +626,7 @@ footer .copyright .woocomLogo img {
     padding: 5px 0;
   }
 
-  #faq h1 {
+  #faq h2 {
     line-height: 1!important;
   }
 
@@ -654,7 +654,7 @@ footer .copyright .woocomLogo img {
 }
 
 @media (min-height:768px) and (max-width:1025px) {
-  body h1 {
+  body h2 {
     color: #464646;
     font-size: 27px;
     font-weight: 700;
@@ -695,7 +695,7 @@ footer .copyright .woocomLogo img {
     top: 105%;
   }
 
-  #getMessage #welcome h1 {
+  #getMessage #welcome h2 {
     font-size: 5vh;
   }
 
@@ -798,7 +798,7 @@ footer .copyright .woocomLogo img {
     width: 75vw;
   }
 
-  #ourStory h1 {
+  #ourStory h2 {
     margin: 25px auto;
   }
 
@@ -829,7 +829,7 @@ footer .copyright .woocomLogo img {
     width: 70%;
   }
 
-  #testimonials #testimony h1 {
+  #testimonials #testimony h2 {
     margin: 1.5vh auto 3vh;
   }
 
@@ -856,7 +856,7 @@ footer .copyright .woocomLogo img {
     padding: 4.5vh 0;
   }
 
-  #faq .header h1 {
+  #faq .header h2 {
     font-size: 35px;
     line-height: 1.5;
   }
@@ -878,7 +878,7 @@ footer .copyright .woocomLogo img {
     padding-top: 7vh;
   }
 
-  #getStarted h1 {
+  #getStarted h2 {
     padding: 1vh 0;
     font-size: 4vh;
     margin-bottom: 1.5vh;

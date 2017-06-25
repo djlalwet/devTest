@@ -1,7 +1,7 @@
 
-@media (min-height: 768px) and (max-width: 1025px){
+@media (min-height: 768px) and (max-width: 1024px){
   body{
-    h1{
+    h2{
       color:$grayDarkHeader;
       font-size: 27px;
       font-weight: bold;
@@ -41,7 +41,7 @@
         top: 105%;
       }
 
-      h1{
+      h2{
         font-size: 5vh;
       }
       p{
@@ -49,7 +49,7 @@
       }
     }
 
-    #sidebar{
+    #messagebar{
       min-height: 35vh !important;
       margin: 2.5vh 0;
       .formHeader{
@@ -59,7 +59,7 @@
           margin:0;
           padding: 1vh 0;
           font-weight: bold;
-          font-size: 26px;
+          font-size: 1.9vh;
         }
         p{
           padding: 1vh 0;
@@ -138,7 +138,7 @@
     .container{
       width: 75vw;
     }
-    h1{
+    h2{
       margin: 25px auto;
     }
     p{
@@ -163,7 +163,7 @@
     #testimony{
       padding: 2vh 5vw;
       width: 70%;
-      h1{
+      h2{
         margin: 1.5vh auto 3vh;
       }
       p{
@@ -186,7 +186,7 @@
 
     .header{
       padding: 4.5vh 0;
-      h1{
+      h2{
         font-size: 35px;
         line-height: 1.5;
       }
@@ -210,7 +210,7 @@
       padding-top: 7vh;
     }
 
-    h1{
+    h2{
       padding: 1vh 0;
       font-size: 4vh;
       margin-bottom: 1.5vh;
