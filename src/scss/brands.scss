@@ -1,0 +1,13 @@
+#brands{
+  padding: 20px;
+  background-color: #f8f8f8;
+
+  img{
+    box-sizing: border-box;
+    float: left;
+    width: (100% / 6);
+    max-height: 10vh;
+    padding: 0 5px;
+    opacity:0.2;
+  }
+}

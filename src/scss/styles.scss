@@ -1,0 +1,64 @@
+/* Global */
+
+$sectionBackground: #1c2937;
+$blueColor: #00c1b5;
+$grayDarkHeader: #464646;
+$grayLightHeader: #7d7d7d;
+$lightGray: #f7f7f7;
+$lightGrayText: rgba(125,125,125, 0.7);
+
+@mixin dropdownSettings{
+  background-color: $lightGray;
+  border: none;
+  top: 105%;
+  li{
+    min-width: 14vw;
+  }
+  a{
+    padding: 10px 20px;
+  }
+  img{
+    margin-top: 3px;
+    float: right;
+    width: 5px !important;
+  }
+  .divider{
+    margin: 0;
+  }
+}
+
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+
+  h1{
+      color:$grayDarkHeader;
+      font-size: 27px;
+      font-weight: bold;
+  }
+  h3{
+    font-weight: bold;
+  }
+  P{
+    font-size: 10px;
+    color: $lightGrayText;
+  }
+
+}
+
+.container{
+  width: 65vw;
+  padding: 0 0;
+}
+
+@import "header";
+@import "getMessage";
+@import "brands";
+@import "services";
+@import "didYouKnow";
+@import "ourStory";
+@import "testimonials";
+@import "faq";
+@import "getStarted";
+@import "footer";
+@import "smallDevice";
+@import "mediumDevice";

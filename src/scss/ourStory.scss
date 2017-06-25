@@ -1,0 +1,21 @@
+#ourStory{
+  padding: 5vh;
+  text-align: center;
+  line-height: 1.7;
+  min-height: 50vh; 
+
+  .container{
+    width: 50vw;
+  }
+  h1{
+    margin: 25px auto;
+  }
+  p{
+    font-size: 10.5px;
+    color:$grayLightHeader;
+  }
+  #mainPoint{
+    font-weight: bold;
+    font-size: 12px;
+  }
+}

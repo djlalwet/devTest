@@ -1,0 +1,932 @@
+body {
+  font: 15px/1.5 Arial,Helvetica,sans-serif;
+}
+
+body h1 {
+  color: #464646;
+  font-size: 27px;
+}
+
+body h1,body h3 {
+  font-weight: 700;
+}
+
+body P {
+  font-size: 10px;
+  color: hsla(0,0%,49%,.7);
+}
+
+.container {
+  width: 65vw;
+  padding: 0;
+}
+
+header {
+  min-height: 12vh;
+}
+
+header nav {
+  background-color: #fff!important;
+  border: none!important;
+  margin: 0!important;
+}
+
+header .logo {
+  padding-top: 10px;
+  float: left;
+}
+
+header .logo img {
+  max-height: 60px;
+}
+
+header .navbar-header {
+  float: right;
+}
+
+header .navbar-collapse {
+  padding: 0;
+}
+
+header .navbar-collapse a {
+  padding: 27px 20px;
+  font-weight: 700;
+  font-size: 11px;
+  color: hsla(0,0%,49%,.7)!important;
+  background-color: transparent!important;
+}
+
+header .dropdown-menu {
+  background-color: #f7f7f7;
+  border: none;
+  top: 105%;
+}
+
+header .dropdown-menu li {
+  min-width: 14vw;
+}
+
+header .dropdown-menu a {
+  padding: 10px 20px;
+}
+
+header .dropdown-menu img {
+  margin-top: 3px;
+  float: right;
+  width: 5px!important;
+}
+
+header .dropdown-menu .divider {
+  margin: 0;
+}
+
+@media (min-width:768px) {
+  header li:hover {
+    border-bottom: 4px solid #00c1b5;
+  }
+
+  header ul.nav li.dropdown:hover>ul.dropdown-menu {
+    display: block;
+  }
+}
+
+#getMessage {
+  min-height: 75vh;
+  background: url(../img/3ee4ff3eb5ed913467f7a2ef8d1bb4c7.jpg);
+  background-size: 100% 100%;
+}
+
+#getMessage #welcome {
+  float: left;
+  width: 55%;
+  margin-top: 25vh;
+  color: #fff;
+}
+
+#getMessage #welcome .carousel-indicators {
+  left: 2vw;
+  top: 105%;
+}
+
+#getMessage #welcome .carousel-indicators li {
+  background-color: #fff;
+  border: none;
+  margin: 0 4px;
+  width: 7px;
+  height: 7px;
+}
+
+#getMessage #welcome .carousel-indicators .active {
+  background-color: #00c1b5;
+}
+
+#getMessage #welcome h1 {
+  color: #fff;
+  font-size: 4.5vw;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#getMessage #welcome p {
+  color: #fff;
+  margin-right: 10vw;
+  font-size: 1.3vw;
+  line-height: 1.3;
+}
+
+#getMessage #sidebar {
+  min-height: 65vh;
+  float: right;
+  width: 33%;
+  background-color: #fff;
+  text-align: center;
+  margin: 5vh 0;
+}
+
+#getMessage #sidebar .formHeader {
+  height: 22vh;
+  background-color: #00c1b5;
+  color: #fff;
+  text-align: justify;
+  padding: 3vh 2vw;
+}
+
+#getMessage #sidebar .formHeader h3 {
+  margin: 0;
+  padding: 2.5vh 0;
+  font-weight: 800;
+}
+
+#getMessage #sidebar .formHeader p {
+  font-size: 10px;
+  padding: 2vh 0;
+  text-align: left;
+  border-top: 1px solid #fff;
+  color: #fff;
+}
+
+#getMessage #sidebar .formHeader .bordered {
+  border-bottom: 3px solid #fff;
+  width: 5vw;
+}
+
+#getMessage #sidebar form {
+  padding: 2vh;
+}
+
+#getMessage #sidebar form input {
+  width: 90%;
+  padding: 1.5vh;
+  margin-top: 2vh;
+  font-size: 10px;
+}
+
+#getMessage #sidebar form button {
+  margin-top: 10px;
+  width: 90%;
+  background-color: #00c1b5;
+  color: #fff;
+  padding: 1.5vh;
+  border-style: none;
+}
+
+#getMessage #sidebar .privacyPolicy a {
+  color: hsla(0,0%,49%,.7);
+  text-decoration: underline;
+}
+
+#brands {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+#brands img {
+  box-sizing: border-box;
+  float: left;
+  width: 16.66667%;
+  max-height: 10vh;
+  padding: 0 5px;
+  opacity: .2;
+}
+
+#services {
+  margin: 40px;
+  color: #464646;
+}
+
+#services .service {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 10px;
+}
+
+#services .service img {
+  width: 80px;
+}
+
+#services .service h3 {
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+#didYouKnow {
+  min-height: 50vh;
+  background: url(../img/ec52ccf46e62d78d4bab11daf679430b.jpg);
+  background-size: 100% 100%;
+}
+
+#didYouKnow .container {
+  padding: 20px;
+}
+
+#didYouKnow #sidebar {
+  min-height: 38vh;
+  float: left;
+  width: 22.5vw;
+  background-color: #fff;
+  text-align: left;
+  margin: 9vh 0;
+  padding: 5vh;
+}
+
+#didYouKnow #sidebar p {
+  line-height: 1.5;
+  margin-bottom: 7vh;
+}
+
+#didYouKnow #sidebar a {
+  color: #00c1b5;
+  font-size: 18px;
+}
+
+#ourStory {
+  padding: 5vh;
+  text-align: center;
+  line-height: 1.7;
+  min-height: 50vh;
+}
+
+#ourStory .container {
+  width: 50vw;
+}
+
+#ourStory h1 {
+  margin: 25px auto;
+}
+
+#ourStory p {
+  font-size: 10.5px;
+  color: #7d7d7d;
+}
+
+#ourStory #mainPoint {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#testimonials {
+  background-color: #1c2937;
+  padding: 40px;
+  text-align: center;
+  min-height: 67vh;
+}
+
+#testimonials #leftArrow {
+  text-align: left;
+}
+
+#testimonials #rightArrow {
+  text-align: right;
+}
+
+#testimonials .arrow {
+  width: 15%;
+  float: left;
+  padding: 17vh 0;
+}
+
+#testimonials .arrow img {
+  height: 40px;
+}
+
+#testimonials #testimony {
+  padding: 30px;
+  float: left;
+  width: 70%;
+  text-align: center;
+}
+
+#testimonials #testimony h1 {
+  color: #00c1b5;
+  margin: 1.5vh auto 5vh;
+}
+
+#testimonials #testimony p {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 6vh;
+  line-height: 1.5;
+}
+
+#testimonials #testimony h5 {
+  color: #fff;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+#testimonials #testimony button {
+  background-color: #00c1b5;
+  color: #fff;
+  width: 16vw;
+  border: none;
+  padding: 15px 10px;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+#faq {
+  min-height: 95vh;
+  background-color: #f6f8fa;
+}
+
+#faq .header {
+  text-align: center;
+  color: #464646;
+  padding: 8.5vh 0;
+}
+
+#faq .header h1 {
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+#faq .questions {
+  width: 39%;
+  padding: 0 4vw 0 1.5vw;
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+#faq .questions h3 {
+  font-size: 16px;
+  color: #00c1b5;
+  margin: 0 auto 4px;
+  line-height: 1.3;
+}
+
+#faq .questions p {
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+#faq .left {
+  float: left;
+}
+
+#faq .right {
+  float: right;
+}
+
+#getStarted {
+  min-height: 55vh;
+  background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(../img/0d8aaa977ac85801cbeb9a35ed84a057.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+#getStarted .container {
+  padding-top: 13vh;
+}
+
+#getStarted h1 {
+  color: #fff;
+  padding: 3vh 0;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 1.5vh;
+}
+
+#getStarted button {
+  background-color: #00c1b5;
+  color: #fff;
+  width: 16vw;
+  border: none;
+  padding: 2vh 3vw;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #1c2937;
+}
+
+footer nav {
+  padding: 5vh;
+  background-color: #1c2937!important;
+  border: none!important;
+  margin: 0!important;
+}
+
+footer nav .logo {
+  float: left;
+}
+
+footer nav .logo img {
+  max-height: 12vh;
+}
+
+footer nav .navbar-header {
+  float: right;
+}
+
+footer nav .navbar-collapse {
+  padding: 5px 0;
+}
+
+footer nav .navbar-collapse a {
+  line-height: 3;
+  font-size: 10px;
+  color: #fff!important;
+  background-color: transparent!important;
+  font-weight: 900;
+}
+
+footer nav .navbar-collapse a img {
+  width: 25px;
+}
+
+footer .dropdown-menu {
+  background-color: #f7f7f7;
+  top: 105%;
+  background-color: #1c2937;
+  border: none;
+  bottom: 95%!important;
+}
+
+footer .dropdown-menu li {
+  min-width: 14vw;
+}
+
+footer .dropdown-menu a {
+  padding: 10px 20px;
+}
+
+footer .dropdown-menu img {
+  margin-top: 3px;
+  float: right;
+  width: 5px!important;
+}
+
+footer .dropdown-menu a:hover {
+  background-color: transparent;
+}
+
+footer .dropdown-menu img {
+  margin-top: 12px;
+}
+
+footer .dropdown-menu .divider {
+  margin: 0;
+}
+
+footer .copyright {
+  padding: 20px 0;
+  border-top: 1px solid hsla(0,0%,73%,.2)!important;
+}
+
+footer .copyright h5 {
+  float: left;
+  color: hsla(0,0%,73%,.3)!important;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+footer .copyright .woocomLogo {
+  padding-top: 5px;
+  float: right;
+  height: 2vh;
+}
+
+footer .copyright .woocomLogo img {
+  width: 130px;
+}
+
+@media (min-width:768px) {
+  footer li:hover {
+    border-bottom: 4px solid #00c1b5;
+  }
+
+  footer ul.nav li.dropup:hover>ul.dropdown-menu {
+    display: block;
+  }
+}
+
+@media (max-width:768px) {
+  #didYouKnow #sidebar,  #faq .questions,  #getMessage #sidebar,  #getMessage #welcome,  #services .service,  footer .copyright .woocomLogo,  footer .copyright h5 {
+    float: none;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .container {
+    width: 100vw!important;
+    margin: 0;
+  }
+
+  footer img,  header img {
+    padding: 10px;
+    box-sizing: content-box;
+  }
+
+  footer nav,  header nav {
+    padding: 0!important;
+  }
+
+  footer .navbar-header,  header .navbar-header {
+    margin: 2vh 0!important;
+  }
+
+  footer .navbar-collapse,  header .navbar-collapse {
+    margin: 80px 0 0!important;
+    width: 100vw!important;
+  }
+
+  footer .navbar-collapse a,  header .navbar-collapse a {
+    padding: 10px 40px!important;
+    line-height: 20px!important;
+  }
+
+  footer .dropdown-menu li,  header .dropdown-menu li {
+    padding: 0 20px!important;
+    width: 100vw;
+  }
+
+  #getMessage h1 {
+    font-size: 30px!important;
+  }
+
+  #getMessage #welcome {
+    margin-top: 5px!important;
+    margin-bottom: 20px!important;
+  }
+
+  #getMessage .carousel-indicators {
+    left: 50%!important;
+    top: 100%!important;
+  }
+
+  #getMessage p {
+    margin: 0!important;
+    font-size: 12px!important;
+  }
+
+  #getMessage .formHeader {
+    padding: 5px!important;
+  }
+
+  #getMessage .bordered {
+    width: 16vw!important;
+  }
+
+  #brands {
+    padding: 0;
+    text-align: center;
+  }
+
+  #brands img {
+    padding: 10px 0;
+    box-sizing: content-box;
+  }
+
+  #services {
+    margin: 0!important;
+  }
+
+  #ourStory {
+    padding: 0;
+  }
+
+  #ourStory p {
+    padding: 0 10px;
+  }
+
+  #testimonials {
+    padding: 10px 0;
+  }
+
+  #testimonials #testimony {
+    width: 70%;
+    padding: 0;
+  }
+
+  #faq .header {
+    padding: 5px 0;
+  }
+
+  #faq h1 {
+    line-height: 1!important;
+  }
+
+  #faq .row {
+    margin: 0!important;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  #faq .questions {
+    padding: 0;
+  }
+
+  #getStarted .container {
+    padding: 10px;
+  }
+
+  footer {
+    padding-top: 10px;
+  }
+
+  #getStarted button,  #testimonials button {
+    min-width: 200px!important;
+  }
+}
+
+@media (min-height:768px) and (max-width:1025px) {
+  body h1 {
+    color: #464646;
+    font-size: 27px;
+    font-weight: 700;
+  }
+
+  body h3 {
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  body P {
+    font-size: 10px;
+    color: hsla(0,0%,49%,.7);
+  }
+
+  .container {
+    width: 90vw;
+  }
+
+  header {
+    min-height: 6vh!important;
+  }
+
+  header .navbar-collapse a {
+    padding: 2.5vh 2.3vw!important;
+  }
+
+  #getMessage {
+    min-height: 22vh!important;
+  }
+
+  #getMessage #welcome {
+    margin-top: 14vh;
+  }
+
+  #getMessage #welcome .carousel-indicators {
+    left: 2.5vw;
+    top: 105%;
+  }
+
+  #getMessage #welcome h1 {
+    font-size: 5vh;
+  }
+
+  #getMessage #welcome p {
+    font-size: 1.5vh;
+  }
+
+  #getMessage #sidebar {
+    min-height: 35vh!important;
+    margin: 2.5vh 0;
+  }
+
+  #getMessage #sidebar .formHeader {
+    height: 12vh;
+    padding: 2vh 3vw;
+  }
+
+  #getMessage #sidebar .formHeader h3 {
+    margin: 0;
+    padding: 1vh 0;
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  #getMessage #sidebar .formHeader p {
+    padding: 1vh 0;
+  }
+
+  #getMessage #sidebar .formHeader .bordered {
+    border-bottom: 2px solid #fff;
+    width: 6vw;
+  }
+
+  #getMessage form {
+    padding: 1.5vh 2vw!important;
+  }
+
+  #getMessage form input {
+    width: 90%;
+    padding: .8vh!important;
+    margin-top: .8vh!important;
+    font-size: 10px!important;
+  }
+
+  #getMessage form button {
+    padding: .8vh!important;
+    font-size: 16px!important;
+  }
+
+  #getMessage .privacyPolicy a {
+    color: hsla(0,0%,49%,.7);
+    text-decoration: underline;
+  }
+
+  #services {
+    margin: 40px;
+    color: #464646;
+  }
+
+  #services .service {
+    padding: 12px;
+  }
+
+  #services .service img {
+    width: 85px;
+    height: 85px;
+  }
+
+  #services .service h3 {
+    margin-top: 1.5vh;
+    margin-bottom: .8vh;
+  }
+
+  #didYouKnow {
+    min-height: 25vh!important;
+  }
+
+  #didYouKnow .container {
+    padding: 1vw;
+  }
+
+  #didYouKnow #sidebar {
+    min-height: 20vh;
+    width: 32vw;
+    margin: 5.5vh 0;
+    padding: 3vh;
+  }
+
+  #didYouKnow #sidebar p {
+    line-height: 2;
+    margin-bottom: 3vh;
+  }
+
+  #ourStory {
+    min-height: 26vh;
+    padding: 3vh;
+  }
+
+  #ourStory .container {
+    width: 75vw;
+  }
+
+  #ourStory h1 {
+    margin: 25px auto;
+  }
+
+  #ourStory p {
+    font-size: 12px;
+  }
+
+  #ourStory #mainPoint {
+    font-size: 14px;
+  }
+
+  #testimonials {
+    padding: 40px;
+    min-height: 35vh;
+  }
+
+  #testimonials .arrow {
+    width: 15%;
+    padding: 10vh 0;
+  }
+
+  #testimonials .arrow img {
+    height: 40px;
+  }
+
+  #testimonials #testimony {
+    padding: 2vh 5vw;
+    width: 70%;
+  }
+
+  #testimonials #testimony h1 {
+    margin: 1.5vh auto 3vh;
+  }
+
+  #testimonials #testimony p {
+    font-size: 16px;
+    margin-bottom: 3vh;
+  }
+
+  #testimonials #testimony h5 {
+    margin-bottom: 30px;
+  }
+
+  #testimonials #testimony button {
+    width: 24vw;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  #faq {
+    min-height: 50vh;
+  }
+
+  #faq .header {
+    padding: 4.5vh 0;
+  }
+
+  #faq .header h1 {
+    font-size: 35px;
+    line-height: 1.5;
+  }
+
+  #faq .questions h3 {
+    font-size: 17px;
+  }
+
+  #faq .questions p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  #getStarted {
+    min-height: 29vh;
+  }
+
+  #getStarted .container {
+    padding-top: 7vh;
+  }
+
+  #getStarted h1 {
+    padding: 1vh 0;
+    font-size: 4vh;
+    margin-bottom: 1.5vh;
+  }
+
+  #getStarted button {
+    width: 24vw;
+    padding: 1vh 3vw;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  footer nav {
+    padding: 2.5vh;
+  }
+
+  footer nav .logo img {
+    max-height: 6vh!important;
+  }
+
+  footer nav .navbar-collapse {
+    padding: 5px 0;
+  }
+
+  footer nav .navbar-collapse a {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  footer .dropdown-menu {
+    border: none;
+    bottom: 95%!important;
+  }
+
+  footer .dropdown-menu img {
+    margin-top: 12px;
+  }
+
+  footer .copyright {
+    padding: 20px 0;
+  }
+
+  footer .copyright h5 {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  footer .copyright .woocomLogo img {
+    width: 150px;
+  }
+}

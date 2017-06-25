@@ -1,0 +1,267 @@
+
+@media (min-height: 768px) and (max-width: 1025px){
+  body{
+    h1{
+      color:$grayDarkHeader;
+      font-size: 27px;
+      font-weight: bold;
+    }
+    h3{
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    P{
+      font-size: 10px;
+      color: $lightGrayText;
+    }
+
+  }
+
+  .container{
+    width: 90vw;
+  }
+  header{
+    min-height: 6vh !important;
+    .navbar-collapse{
+      a{
+        padding: 2.5vh 2.3vw !important;
+      }
+    }
+  }
+
+  #getMessage{
+    min-height: 22vh !important;
+
+    #welcome{
+      margin-top: 14vh;
+
+      .carousel-indicators{
+        left: 2.5vw;
+        top: 105%;
+      }
+
+      h1{
+        font-size: 5vh;
+      }
+      p{
+        font-size: 1.5vh;
+      }
+    }
+
+    #sidebar{
+      min-height: 35vh !important;
+      margin: 2.5vh 0;
+      .formHeader{
+        height: 12vh;
+        padding: 2vh 3vw;
+        h3{
+          margin:0;
+          padding: 1vh 0;
+          font-weight: bold;
+          font-size: 26px;
+        }
+        p{
+          padding: 1vh 0;
+        }
+        .bordered{
+          border-bottom: 2px solid white;
+          width: 6vw;
+        }
+      }
+    }
+
+    form{
+      padding: 1.5vh 2vw 1.5vh !important;
+      input{
+        width: 90%;
+        padding: 0.8vh !important;
+        margin-top: 0.8vh !important;
+        font-size: 10px !important;
+      }
+      button{
+        padding: 0.8vh !important;
+        font-size: 16px !important;
+      }
+    }
+
+    .privacyPolicy{
+      a{
+        color: $lightGrayText;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  #services{
+    margin: 40px;
+    color: $grayDarkHeader;
+
+    .service{
+      padding: 12px;
+
+      img{
+        width:85px;
+        height: 85px;
+      }
+
+      h3{
+        margin-top: 1.5vh;
+        margin-bottom: 0.8vh;
+      }
+    }
+  }
+
+  #didYouKnow{
+    min-height: 25vh !important;
+
+    .container{
+      padding: 1vw; 
+    }
+
+    #sidebar{
+      min-height: 20vh;
+      width: 32vw;
+      margin: 5.5vh 0;
+      padding: 3vh;
+      p{
+        line-height: 2;
+        margin-bottom: 3vh;
+      }
+    }
+  }
+
+  #ourStory{
+    min-height: 26vh; 
+    padding: 3vh;
+
+    .container{
+      width: 75vw;
+    }
+    h1{
+      margin: 25px auto;
+    }
+    p{
+      font-size: 12px;
+    }
+    #mainPoint{
+      font-size: 14px;
+    }
+  }
+
+  #testimonials{
+    padding: 40px;
+    min-height: 35vh;
+    .arrow{
+      width: 15%;
+      padding: 10vh 0;
+      img{
+        height: 40px;
+      }
+    }
+
+    #testimony{
+      padding: 2vh 5vw;
+      width: 70%;
+      h1{
+        margin: 1.5vh auto 3vh;
+      }
+      p{
+        font-size: 16px;
+        margin-bottom: 3vh;
+      }
+      h5{
+        margin-bottom: 30px;
+      }
+      button{
+        width: 24vw;
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
+  }
+
+  #faq{
+    min-height: 50vh;
+
+    .header{
+      padding: 4.5vh 0;
+      h1{
+        font-size: 35px;
+        line-height: 1.5;
+      }
+    }
+
+    .questions{
+      h3{
+        font-size: 17px;
+      }
+      p{
+        font-size: 12px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  #getStarted{
+    min-height: 29vh;
+
+    .container{
+      padding-top: 7vh;
+    }
+
+    h1{
+      padding: 1vh 0;
+      font-size: 4vh;
+      margin-bottom: 1.5vh;
+    }
+
+    button{
+      width: 24vw;
+      padding: 1vh 3vw;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+
+  footer{    
+    nav{
+      padding: 2.5vh;
+
+      .logo{
+        img{
+          max-height: 6vh !important;
+        }
+      }
+
+      .navbar-collapse{
+        padding: 5px 0;
+        a{
+          font-size: 13px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .dropdown-menu{
+      border: none;
+      bottom: 95% !important;
+      img{
+        margin-top: 12px;
+      }
+    }
+
+    .copyright{
+      padding: 20px 0;
+      h5{
+        font-size: 10px;
+        line-height: 1.5;
+      }
+      .woocomLogo{
+        img{
+          width: 150px;
+        }
+      }
+    }
+  }
+}

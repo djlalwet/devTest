@@ -1,0 +1,27 @@
+#didYouKnow{
+  min-height: 50vh;
+  background: url("../img/showcase2.jpg");
+  background-size: 100% 100%;
+
+  .container{
+    padding: 20px; 
+  }
+
+  #sidebar{
+    min-height: 38vh;
+    float: left;
+    width: 22.5vw;
+    background-color: white;
+    text-align: left;
+    margin: 9vh 0;
+    padding: 5vh;
+    p{
+      line-height: 1.5;
+      margin-bottom: 7vh;
+    }
+    a{
+      color: $blueColor;
+      font-size: 18px;
+    }
+  }
+}

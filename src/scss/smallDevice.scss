@@ -1,0 +1,136 @@
+@media(max-width: 768px){
+  #getMessage #welcome,
+  #getMessage #sidebar,
+  #services .service,
+  #didYouKnow #sidebar,
+  #faq .questions,
+  footer .copyright h5,
+  footer .copyright .woocomLogo{
+    float: none;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .container{
+    width: 100vw !important;
+    margin: 0;
+  }  
+
+  header, footer{
+    img{
+      padding: 10px;
+      box-sizing: content-box;
+    }
+    nav{
+      padding:0 !important;
+    }
+
+    .navbar-header{
+      margin: 2vh 0 !important;
+    }
+
+    .navbar-collapse{
+      margin: 80px 0 0!important;
+      width: 100vw !important;
+      a{
+        padding: 10px 40px !important;
+        line-height: 20px !important;
+      }
+    }
+
+    .dropdown-menu{
+      li{
+        padding: 0 20px !important;
+        width: 100vw;
+      }
+    }
+  }
+
+  #getMessage{
+    h1{
+      font-size: 30px !important;
+    }
+    #welcome{
+      margin-top: 5px !important;
+      margin-bottom: 20px !important;
+    }
+    .carousel-indicators{
+      left: 50% !important;
+      top: 100% !important;
+    }
+    p{
+      margin: 0 !important;
+      font-size: 12px !important;
+    }
+    .formHeader{
+      padding: 5px !important;
+    }
+    .bordered{
+      width: 16vw !important;
+    }
+  }
+
+  #brands{
+    padding: 0;
+    text-align: center;
+    img{
+      // float: none;
+      // width: 50%;
+      padding: 10px 0;
+      box-sizing: content-box;
+    }
+  }
+
+  #services{
+    margin: 0 !important;
+  }
+
+  #ourStory{
+    padding: 0;
+    p{
+      padding: 0 10px;
+    }
+  }
+
+  #testimonials {
+    padding: 10px 0;
+  
+    #testimony{
+        width: 70%;
+        padding: 0;
+    }
+  }
+
+  #faq{
+    .header{
+      padding: 5px 0;
+    }
+    h1{
+      line-height: 1 !important;
+    }
+    .row{
+      margin: 0 !important;
+      padding: 0 10px;
+      text-align: center;
+    }
+    .questions{
+      padding: 0 0;
+    }
+  }
+
+  #getStarted{
+    .container{
+      padding: 10px;
+    }
+  }
+
+  footer{
+    padding-top: 10px;
+  }
+
+  #testimonials button,
+  #getStarted button{
+      min-width: 200px !important;
+  }
+}

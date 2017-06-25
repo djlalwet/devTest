@@ -1,0 +1,20 @@
+#services{
+  margin: 40px;
+  color: $grayDarkHeader;
+
+  .service{
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 10px;
+
+    img{
+      width:80px;
+    }
+
+    h3{
+      margin-top: 12px;
+      margin-bottom: 5px;
+    }
+  }
+}
