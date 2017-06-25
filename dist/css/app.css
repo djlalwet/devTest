@@ -155,6 +155,7 @@ header .dropdown-menu .divider {
   margin: 0;
   padding: 2.5vh 0;
   font-weight: 800;
+  font-size: 1.9vw;
 }
 
 #getMessage #messagebar .formHeader p {
@@ -524,7 +525,7 @@ footer .copyright .woocomLogo img {
 }
 
 @media (max-width:768px) {
-  #didYouKnow #sidebar,  #faq .questions,  #getMessage #sidebar,  #getMessage #welcome,  #services .service,  footer .copyright .woocomLogo,  footer .copyright h5 {
+  #didYouKnow #sidebar,  #faq .questions,  #getMessage #messagebar,  #getMessage #welcome,  #services .service,  footer .copyright .woocomLogo,  footer .copyright h5 {
     float: none;
     text-align: center;
     width: 90%;
@@ -653,7 +654,7 @@ footer .copyright .woocomLogo img {
   }
 }
 
-@media (min-height:768px) and (max-width:1025px) {
+@media (min-height:768px) and (max-width:1024px) {
   body h2 {
     color: #464646;
     font-size: 27px;
@@ -703,28 +704,28 @@ footer .copyright .woocomLogo img {
     font-size: 1.5vh;
   }
 
-  #getMessage #sidebar {
+  #getMessage #messagebar {
     min-height: 35vh!important;
     margin: 2.5vh 0;
   }
 
-  #getMessage #sidebar .formHeader {
+  #getMessage #messagebar .formHeader {
     height: 12vh;
     padding: 2vh 3vw;
   }
 
-  #getMessage #sidebar .formHeader h3 {
+  #getMessage #messagebar .formHeader h3 {
     margin: 0;
     padding: 1vh 0;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 1.9vh;
   }
 
-  #getMessage #sidebar .formHeader p {
+  #getMessage #messagebar .formHeader p {
     padding: 1vh 0;
   }
 
-  #getMessage #sidebar .formHeader .bordered {
+  #getMessage #messagebar .formHeader .bordered {
     border-bottom: 2px solid #fff;
     width: 6vw;
   }
