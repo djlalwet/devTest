@@ -529,7 +529,7 @@ footer .copyright .woocomLogo img {
     float: none;
     text-align: center;
     width: 90%;
-    margin: 10px auto;
+    margin: 10px 0;
   }
 
   .container {
@@ -551,18 +551,20 @@ footer .copyright .woocomLogo img {
   }
 
   footer .navbar-collapse,  header .navbar-collapse {
-    margin: 80px 0 0!important;
     width: 100vw!important;
   }
 
   footer .navbar-collapse a,  header .navbar-collapse a {
-    padding: 10px 40px!important;
     line-height: 20px!important;
   }
 
   footer .dropdown-menu li,  header .dropdown-menu li {
     padding: 0 20px!important;
-    width: 100vw;
+    width: 60vw;
+  }
+
+  header .navbar-collapse {
+    margin: 18px 0 0!important;
   }
 
   #getMessage h2 {
@@ -570,13 +572,20 @@ footer .copyright .woocomLogo img {
   }
 
   #getMessage #welcome {
-    margin-top: 5px!important;
-    margin-bottom: 20px!important;
+    margin: 5px auto 20px!important;
+  }
+
+  #getMessage #messagebar {
+    margin: 10px auto;
   }
 
   #getMessage .carousel-indicators {
     left: 50%!important;
     top: 100%!important;
+  }
+
+  #getMessage h3 {
+    font-size: 24px!important;
   }
 
   #getMessage p {
@@ -647,6 +656,14 @@ footer .copyright .woocomLogo img {
 
   footer {
     padding-top: 10px;
+  }
+
+  footer .navbar-collapse {
+    padding-left: 30px!important;
+  }
+
+  footer .dropdown-menu img {
+    margin-top: 0!important;
   }
 
   #getStarted button,  #testimonials button {
